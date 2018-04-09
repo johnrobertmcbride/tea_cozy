@@ -21,7 +21,26 @@ header {
   height: 69px;
   width: 100%;
   z-index: 1;
-  background-color: red;
+  background-color: inherit;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  margin: auto 20px;
 }
 
 .section {
@@ -58,4 +77,23 @@ header {
   margin: 10px 10px;
   height: 200px;
   width: 300px;
+}
+
+.locationcontainer {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.address {
+ width: 300px;
+ background-color: black;
+ opacity: 1;
+ margin: 0px 20px;
+ display: inline-block;
+}
+
+footer {
+  height: 200px;
 }
