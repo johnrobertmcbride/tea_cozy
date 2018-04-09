@@ -2,6 +2,15 @@
   margin: 0 0;
 }
 
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
 header, footer, div {
   border: black 1px solid;
 }
@@ -20,6 +29,21 @@ header {
   top: 69px;
   background-color: blue;
   display: flex;
+}
+
+.missioncontainer {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.missionstatement {
+  background-color: black;
+  width: 100%;
 }
 
 .teacontainer {
