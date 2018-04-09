@@ -2,7 +2,22 @@
   margin: 0 0;
 }
 
-header, div, footer {
+header, footer, div {
   border: black 1px solid;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  background-color: red;
+}
+
+.section {
+  position: relative;
+  top: 69px;
   height: 200px;
+  background-color: blue;
 }
