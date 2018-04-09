@@ -1,0 +1,8 @@
+* {
+  margin: 0 0;
+}
+
+header, div, footer {
+  border: black 1px solid;
+  height: 200px;
+}
