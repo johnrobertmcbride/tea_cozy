@@ -106,6 +106,14 @@ a {
  display: inline-block;
 }
 
+.floating {
+  width: 300px;
+  position: absolute;
+  top: 60px;
+  margin: 0 auto;
+  background-color: none;
+}
+
 .contact {
   height: 200px;
 }
