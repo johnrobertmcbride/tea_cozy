@@ -106,6 +106,10 @@ a {
  display: inline-block;
 }
 
-footer {
-  height: 200px;
+.contact {
+  height: 200px
+}
+
+.copyright {
+  text-align: left;
 }
