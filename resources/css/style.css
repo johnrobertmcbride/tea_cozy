@@ -12,7 +12,7 @@ body {
 }
 
 header, footer, div {
-  border: black 1px solid;
+  border: seashell 1px solid;
 }
 
 header {
@@ -46,8 +46,11 @@ a {
 .section {
   position: relative;
   top: 69px;
-  background-color: blue;
+  background-color: black;
   display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .missioncontainer {
@@ -75,6 +78,12 @@ a {
 
 .tea {
   margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teaimage {
   height: 200px;
   width: 300px;
 }
@@ -84,6 +93,9 @@ a {
   width: 1200px;
   margin: 0 auto;
   background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .address {
