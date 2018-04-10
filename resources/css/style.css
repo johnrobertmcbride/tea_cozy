@@ -11,10 +11,6 @@ body {
   text-align: center;
 }
 
-header, footer, div {
-  border: seashell 1px solid;
-}
-
 header {
   position: fixed;
   top: 0px;
@@ -88,6 +84,10 @@ a {
   width: 300px;
 }
 
+#featuredtea {
+  margin: 50px 0px;
+}
+
 .locationcontainer {
   height: 500px;
   width: 1200px;
@@ -107,9 +107,25 @@ a {
 }
 
 .contact {
-  height: 200px
+  height: 200px;
 }
 
 .copyright {
   text-align: left;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+h3, p {
+  padding: 15px;
+}
+
+h4 {
+  padding: 10px;
+}
+
+h5 {
+  padding: 20px;
 }
